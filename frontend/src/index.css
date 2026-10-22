@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+:root {
+  --bg-page: #FFF5F7;
+  --card-bg: #FFFFFF;
+  --primary: #E98EAD;
+  --primary-hover: #D96C94;
+  --accent-light: #FCE7EF;
+  --text-dark: #29252B;
+  --text-muted: #77717A;
+  --border-pink: #F0DFE5;
+  --success: #10B981;
+  --warning: #F59E0B;
+}
+
+body {
+  background-color: #FFF5F7;
+  color: #29252B;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Light Pink + White Theme Utility Classes */
+.bg-theme-page {
+  background-color: #FFF5F7;
+}
+
+.bg-theme-card {
+  background-color: #FFFFFF;
+}
+
+.bg-theme-accent {
+  background-color: #FCE7EF;
+}
+
+.bg-theme-primary {
+  background-color: #E98EAD;
+}
+
+.bg-theme-primary-hover:hover {
+  background-color: #D96C94;
+}
+
+.text-theme-dark {
+  color: #29252B;
+}
+
+.text-theme-muted {
+  color: #77717A;
+}
+
+.text-theme-primary {
+  color: #D96C94;
+}
+
+.border-theme-pink {
+  border-color: #F0DFE5;
+}
+
+.card-shadow {
+  box-shadow: 0 4px 20px -2px rgba(233, 142, 173, 0.08), 0 2px 6px -1px rgba(0, 0, 0, 0.04);
+}
+
+.card-hover {
+  transition: all 0.2s ease-in-out;
+}
+.card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px -3px rgba(233, 142, 173, 0.16), 0 4px 10px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Custom scrollbar matching soft pink */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF5F7;
+}
+::-webkit-scrollbar-thumb {
+  background: #F0DFE5;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #E98EAD;
+}
