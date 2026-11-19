@@ -15,7 +15,7 @@ The application strictly implements a **Light Pink + White** modern SaaS aesthet
 - **Borders**: Delicate pink-gray (`#F0DFE5`)
 - **State Badges**: Emerald (`#10B981`) for passing/success, Amber (`#F59E0B`) for reviews/deadlines, Purple for administrative controls
 
----
+
 
 ## 🏗️ Architecture & Technology Stack
 
